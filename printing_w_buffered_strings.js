@@ -15,7 +15,8 @@ function getAndPrintHTML() {
       console.log(dataString);
 
       response.on('end', function() {
-        console.log('Response stream complete. ');
+        console.log('end');
+        console.log(dataString);
       });
     });
   });
