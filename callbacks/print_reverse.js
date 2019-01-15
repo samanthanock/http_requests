@@ -13,6 +13,6 @@ function printReverse(html) {
   console.log(reverseArray);
 }
 
-getHTML(requestOptions, printUpperCase);
+getHTML(requestOptions, printReverse);
 
 console.log(printReverse(html));
