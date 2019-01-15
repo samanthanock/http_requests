@@ -5,11 +5,11 @@ var requestOptions = {
   path: '/http-examples/step6/print_lowercase.html',
 };
 
-function printUpperCase(html) {
+function printLowerCase(html) {
   var arrayPrint = html.toLowerCase();
   console.log(arrayPrint);
 }
 
-getHTML(requestOptions, printUpperCase);
+getHTML(requestOptions, printLowerCase);
 
 console.log(printUpperCase(html));
